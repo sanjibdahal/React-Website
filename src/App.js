@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Namaste from Sanjib Dahal from one of the most beautiful country Nepal.
+          Namaste from Sanjib Dahal <br/> from one of the most beautiful country Nepal.
         </p>
         <a
           className="App-link"
