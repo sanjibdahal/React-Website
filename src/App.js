@@ -8,7 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Namaste from Sanjib Dahal <br/> from one of the most beautiful country <h1>Nepal</h1>
-          hello hello hello hello
+          hi
         </p>
         
         <a
