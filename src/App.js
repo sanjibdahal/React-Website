@@ -1,24 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
 
 function App() {
+
+  const [state,setState] = useState(0);
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Namaste from Sanjib Dahal <br/> from one of the most beautiful country <h1>Nepal</h1>
-          hi
+          {`You clicked ${state} times.`}
         </p>
-        
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <button onClick={()=>setState(state+1)}>Increase</button>
+        <button onClick={()=>setState(state-1)}>Decrease</button>
       </header>
     </div>
   );
